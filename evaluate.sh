@@ -1,0 +1,12 @@
+python3 evaluate.py \
+    --network /home/bdi/AdvancedLiterateMachinery/DocumentUnderstanding/CLIP_OCR/Grasp-Anything/logs/prompt_gd/240430_2215_/epoch_94_iou_0.3474 \
+    --input-size 224 \
+    --dataset grasp-anything \
+    --dataset-path /home/bdi/AdvancedLiterateMachinery/DocumentUnderstanding/CLIP_OCR/Dataset/grasp-anything++/unseen \
+    --use-depth 0 \
+    --use-rgb 1 \
+    --num-workers 8 \
+    --n-grasp 1 \
+    --iou-threshold 0.25 \
+    --iou-eval \
+    --seen 0
